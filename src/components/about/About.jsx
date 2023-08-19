@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import COGS from "../../assets/ucsdcogsci2.jpg";
+import COGS from "../../assets/cogs_logo.webp";
 import { RiAwardFill } from "react-icons/ri";
 import { AiFillFolder } from "react-icons/ai";
 import { FaPeopleCarry } from "react-icons/fa";
@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id="about">
       <h5>Get To Know Me</h5>
-      <h2>About Me</h2>
+      <h2 style={{ color: "#d83f87" }}>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">

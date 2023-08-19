@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
-      <h2>Contact Me </h2>
+      <h2 style={{ color: "#d83f87" }}>Contact Me </h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -32,13 +32,20 @@ const Contact = () => {
             <MdMarkEmailUnread className="contact__option-icon" />
             <h4>Email</h4>
             <h5>alan.trapenard@gmail.com</h5>
-            <a href="mailto:alan.trapenard@gmail.com">Send an Email</a>
+            <a
+              href="mailto:alan.trapenard@gmail.com"
+              style={{ color: "white" }}>
+              Send Me an Email
+            </a>
           </article>
           <article className="contact__option">
             <FaFacebookMessenger className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Alan Trapenard</h5>
-            <a href="https://m.me/100002867322247" target="_blank">
+            <a
+              href="https://m.me/100002867322247"
+              target="_blank"
+              style={{ color: "white" }}>
               Send Me a Message
             </a>
           </article>
@@ -62,9 +69,11 @@ const Contact = () => {
               name="message"
               rows="7"
               placeholder="Your Message"
-              required
-            ></textarea>
-            <button type="submit" className="btn btn-primary">
+              required></textarea>
+            <button
+              type="submit"
+              className="btn"
+              style={{ background: "#d83f87" }}>
               Send Message
             </button>
           </form>

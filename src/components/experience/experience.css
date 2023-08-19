@@ -14,15 +14,19 @@
 .experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .experience__container h4 {
-  color: var(--color-bg);
+  color: var(--color-white);
+}
+
+.experience__container h5 {
+  color: var(--color-white);
 }
 
 .experience__container small {
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 .experience__content {
@@ -37,12 +41,12 @@
 }
 
 .experience__details small {
-  color: var(--color-primary-variant);
+  color: var(--color-white);
 }
 
 .experience__details-icon {
   margin-top: 6px;
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 @media screen and (max-width: 1024px) {

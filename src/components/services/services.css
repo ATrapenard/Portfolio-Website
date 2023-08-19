@@ -19,14 +19,14 @@
 }
 
 .service__head h3 {
-  color: var(--color-bg);
+  color: var(--color-white);
   font-size: 1rem;
   text-align: center;
 }
 
 .service__list {
   padding: 2rem;
-  color: var(--color-primary-variant);
+  color: var(--color-white);
 }
 
 .service__list li {
@@ -36,7 +36,7 @@
 }
 
 .service__list-icon {
-  color: var(--color-primary);
+  color: var(--color-white);
   margin-top: 2px;
 }
 

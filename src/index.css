@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #b85042;
-  --color-bg-variant: #e7e8d1;
-  --color-primary: #a7beae;
-  --color-primary-variant: #6883bc;
+  --color-bg: #0c0032;
+  --color-bg-variant: #3500d3;
+  --color-primary: #240090;
+  --color-primary-variant: #190061;
   --color-white: #fff;
 
   --container-width-lg: 75%;
@@ -26,10 +26,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -97,12 +93,6 @@ a:hover {
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
-}
-
-.btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
-  border-color: transparent;
 }
 
 .btn-primary {

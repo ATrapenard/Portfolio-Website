@@ -28,7 +28,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2 style={{ color: "#d83f87" }}>Portfolio</h2>
       <div className="container portfolio__container">
         {data.map(({ id, title, description, github }) => {
           return (

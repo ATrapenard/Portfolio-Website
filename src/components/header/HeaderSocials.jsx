@@ -7,15 +7,21 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a
+        style={{ color: "white" }}
         href="https://www.linkedin.com/in/alan-trapenard-790670199/"
-        target="_blank"
-      >
+        target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com/ATrapenard" target="_blank">
+      <a
+        style={{ color: "white" }}
+        href="https://github.com/ATrapenard"
+        target="_blank">
         <DiGithubFull />
       </a>
-      <a href="https://instagram.com/alan.trapezoid/" target="blank">
+      <a
+        style={{ color: "white" }}
+        href="https://instagram.com/alan.trapezoid/"
+        target="blank">
         <FaInstagramSquare />
       </a>
     </div>

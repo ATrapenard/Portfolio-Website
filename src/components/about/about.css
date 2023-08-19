@@ -27,7 +27,7 @@
 }
 
 .about__card h4 {
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 .about__card {
@@ -39,28 +39,28 @@
 }
 
 .about__icon {
-  color: var(--color-light);
+  color: var(--color-white);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
 .about__card h5 {
   font-size: 0.95rem;
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 .about__card small {
   font-size: 0.7rem;
-  color: var(--color-bg-variant);
+  color: var(--color-white);
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 .about__card a {
-  color: var(--color-bg-variant);
+  color: var(--color-white);
 }
 
 .about__experience-list {

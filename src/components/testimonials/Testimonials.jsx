@@ -33,7 +33,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials">
       <h5>Review from Clients</h5>
-      <h2>Testimonials</h2>
+      <h2 style={{ color: "#d83f87" }}>Testimonials</h2>
 
       <Swiper
         className="container testimonals__container"

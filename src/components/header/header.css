@@ -33,6 +33,7 @@ header {
 
 .btn {
   margin-top: auto;
+  background: #d83f87;
 }
 
 /* ================ Header Socials ==============*/
@@ -51,7 +52,7 @@ header {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--color-primary);
+  background: var(--color-white);
 }
 
 /*=====================IMAGE=================*/
@@ -68,16 +69,6 @@ header {
   border-radius: 3rem;
 }
 
-/* ===================== SCROLL DOWN ============*/
-.scroll__down {
-  position: fixed;
-  right: 2rem;
-  bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
-}
-
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) =========*/
 @media screen and (max-width: 1024px) {
   header {
@@ -91,8 +82,7 @@ header {
     height: 100vh;
   }
 
-  .header__socials,
-  .scroll__down {
+  .header__socials {
     display: none;
   }
 }

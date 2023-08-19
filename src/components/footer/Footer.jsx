@@ -2,7 +2,8 @@ import React from "react";
 import "./footer.css";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
-import { BsTwitter } from "react-icons/bs";
+import { BsTwitter, BsLinkedin } from "react-icons/bs";
+import { DiGithubFull } from "react-icons/di";
 
 const Footer = () => {
   return (
@@ -43,6 +44,12 @@ const Footer = () => {
         </a>
         <a href="https://twitter.com">
           <BsTwitter />
+        </a>
+        <a href="https://www.linkedin.com/in/alan-trapenard-790670199/">
+          <BsLinkedin />
+        </a>
+        <a href="github.com/ATrapenard">
+          <DiGithubFull />
         </a>
       </div>
 

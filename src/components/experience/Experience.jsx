@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h5>Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h2 style={{ color: "#d83f87" }}>My Experience</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
@@ -15,28 +15,28 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Level: Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Level: Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Level: Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Level: Experienced</small>
               </div>
             </article>
           </div>
@@ -48,14 +48,14 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Level: Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Flask</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Level: Beginner</small>
               </div>
             </article>
           </div>
@@ -67,8 +67,8 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Supervised Algorithms</h4>
-                <small className="text-light">Intermediate</small>
-                <h5 className="text-light" style={{ color: "blue" }}>
+                <small className="text-light">Level: Intermediate</small>
+                <h5 className="text-light">
                   Classification, Boosting, Regression, Error Metrics, Neural
                   Networks
                 </h5>
@@ -78,8 +78,8 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Unsupervised Algorithms</h4>
-                <small className="text-light">Beginner</small>
-                <h5 className="text-light" style={{ color: "blue" }}>
+                <small className="text-light">Level: Beginner</small>
+                <h5 className="text-light">
                   K-Means, PCA, MLE, EM Algorithm, Hierarchichal Clustering
                 </h5>
               </div>
@@ -93,28 +93,28 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Pandas</h4>
-                <small className="text-light">Advanced</small>
+                <small className="text-light">Level: Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>NumPy</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Level: Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>SciPy</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Level: Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Matplotlib</h4>
-                <small className="text-light">Advanced</small>
+                <small className="text-light">Level: Experienced</small>
               </div>
             </article>
           </div>

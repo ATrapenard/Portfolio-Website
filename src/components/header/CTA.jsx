@@ -7,7 +7,10 @@ const CTA = () => {
       <a href={CV} download className="btn btn-download">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a
+        href="#contact"
+        className="btn btn-primary"
+        style={{ background: "#d83f87" }}>
         Contact Me!
       </a>
     </div>
