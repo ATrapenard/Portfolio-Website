@@ -15,37 +15,37 @@ const Nav = () => {
         href="#"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}>
-        <AiTwotoneHome size={25} />
+        <AiTwotoneHome size={20} />
       </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}>
-        <SiExpress size={25} />
+        <SiExpress size={20} />
       </a>
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}>
-        <MdOutlineRoomService size={25} color="white" />
+        <MdOutlineRoomService size={20} />
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}>
-        <SiAboutdotme size={25} />
+        <SiAboutdotme size={20} />
       </a>
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}>
-        <GiLockedChest size={25} />
+        <GiLockedChest size={20} />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}>
-        <IoIosGitNetwork size={25} />
+        <IoIosGitNetwork size={20} />
       </a>
     </nav>
   );

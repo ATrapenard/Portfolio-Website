@@ -75,6 +75,10 @@ header {
     height: 68vh;
     min-height: 110vh;
   }
+  .header__bio {
+    grid-template-columns: 1fr;
+    font-size: 1.5vh;
+  }
 }
 
 @media screen and (max-width: 600px) {

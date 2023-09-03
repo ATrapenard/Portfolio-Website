@@ -34,7 +34,7 @@ const Contact = () => {
             <h5>alan.trapenard@gmail.com</h5>
             <a
               href="mailto:alan.trapenard@gmail.com"
-              style={{ color: "white" }}>
+              style={{ color: "#d83f87" }}>
               Send Me an Email
             </a>
           </article>
@@ -45,7 +45,7 @@ const Contact = () => {
             <a
               href="https://m.me/100002867322247"
               target="_blank"
-              style={{ color: "white" }}>
+              style={{ color: "#d83f87" }}>
               Send Me a Message
             </a>
           </article>
@@ -53,7 +53,7 @@ const Contact = () => {
             <BsFillChatTextFill className="contact__option-icon" />
             <h4>Text</h4>
             <h5>Shoot Me a Text</h5>
-            <small>(310)-408-5105</small>
+            <small style={{ color: "#d83f87" }}>(310)-408-5105</small>
           </article>
         </div>
         <div className="contact__form">
@@ -70,10 +70,7 @@ const Contact = () => {
               rows="7"
               placeholder="Your Message"
               required></textarea>
-            <button
-              type="submit"
-              className="btn"
-              style={{ background: "#d83f87" }}>
+            <button type="submit" className="btn">
               Send Message
             </button>
           </form>

@@ -69,6 +69,10 @@ textarea {
   height: 300px;
 }
 
+.btn {
+  color: var(--color-primary);
+}
+
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     flex-direction: column;
