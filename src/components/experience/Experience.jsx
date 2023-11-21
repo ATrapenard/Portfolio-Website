@@ -64,7 +64,7 @@ const Experience = () => {
           <h3>Machine Learning (Python)</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <BsFillPatchCheckFill className="experience__details-icon-ml" />
               <div>
                 <h4>Supervised Algorithms</h4>
                 <small className="text-light">Level: Intermediate</small>
@@ -75,7 +75,7 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <BsFillPatchCheckFill className="experience__details-icon-ml" />
               <div>
                 <h4>Unsupervised Algorithms</h4>
                 <small className="text-light">Level: Beginner</small>
