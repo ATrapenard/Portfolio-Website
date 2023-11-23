@@ -14,11 +14,11 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-ui1" />
               <p>Creating user friendly and accessible interface elements.</p>
             </li>
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-ui2" />
               <p>
                 Skilled in providing design based on predicting user necessity
                 for the anticipated product.
@@ -32,14 +32,14 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-wd" />
               <p>
                 Skilled in creating responsive Frontend designs that correlate
                 with UI/UX needs.
               </p>
             </li>
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-wd" />
               <p>
                 Studying the process of creating data management systems for
                 Backend Design.
@@ -53,14 +53,14 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-ds" />
               <p>
                 Skilled in analyzing and interpreting complex datasets to
                 extract meaningful insights and trends.
               </p>
             </li>
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-ds" />
               <p>
                 Able to provide actionable recommendations and solutions to
                 drive data-informed decision-making.
@@ -74,7 +74,7 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-ml1" />
               <p>
                 Skilled in designing, developing, and implementing ML models to
                 solve problems utilizing preprocessing, model selection, and
@@ -82,7 +82,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <FiCheck className="service__list-icon" />
+              <FiCheck className="service__list-icon-ml2" />
               <p>
                 Collaborates well with teams to integrate these models into
                 applications driving AI solutions.

@@ -35,9 +35,35 @@
   margin-bottom: 0.8rem;
 }
 
-.service__list-icon {
+.service__list-icon-ui1 {
   color: var(--color-white);
   margin-top: 2px;
+  font-size: 1.2rem;
+}
+.service__list-icon-ui2 {
+  color: var(--color-white);
+  margin-top: 2px;
+  font-size: 1.8rem;
+}
+.service__list-icon-wd {
+  color: var(--color-white);
+  margin-top: 2px;
+  font-size: 1.5rem;
+}
+.service__list-icon-ds {
+  color: var(--color-white);
+  margin-top: 2px;
+  font-size: 2rem;
+}
+.service__list-icon-ml1 {
+  color: var(--color-white);
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+.service__list-icon-ml2 {
+  color: var(--color-white);
+  margin-top: 2px;
+  font-size: 1.8rem;
 }
 
 .service__list p {
