@@ -20,11 +20,12 @@ const Header = () => {
           </div>
           <div className="header__bio-content">
             <h2>
-              I'm a San Diego based aspiring Data Scientist/Machine Learning
-              Engineer working primarily with Python ML/Data libraries to
-              develop smart solutions to business challenges through statistical
-              methods and mathematical problem-solving to manage large data sets
-              and extract important insights.
+              I'm a San Diego-based Frontend Developer specializing in building
+              responsive, user-friendly interfaces using modern JavaScript
+              frameworks like React. I focus on creating visually engaging and
+              efficient web applications, translating business needs into
+              seamless user experiences through clean, maintainable code and
+              attention to design details.
             </h2>
           </div>
         </div>
