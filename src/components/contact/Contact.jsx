@@ -31,10 +31,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdMarkEmailUnread className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>alan.trapenard@gmail.com</h5>
-            <a
-              href="mailto:alan.trapenard@gmail.com"
-              style={{ color: "#d83f87" }}>
+            <h5>ahtrapenard@gmail.com</h5>
+            <a href="mailto:ahtrapenard@gmail.com" style={{ color: "#d83f87" }}>
               Send Me an Email
             </a>
           </article>

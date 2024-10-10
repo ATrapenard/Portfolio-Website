@@ -35,9 +35,9 @@ const About = () => {
               <h5>-Experience-</h5>
               <small>4+ Years Learning/Creating</small>
               <div className="about__experience-list">
-                <p>Supervised/Unsupervised ML Algorithm application</p>
+                <p>Responsive Web Development</p>
                 <p>In-depth statistical studies with real world data</p>
-                <p>Data Visualization/Manipulation in Python</p>
+                <p>Supervised/Unsupervised ML Algorithm application</p>
               </div>
             </article>
             <article className="about__card">
