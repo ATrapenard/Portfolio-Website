@@ -1,13 +1,10 @@
 import React from "react";
+import Resume from "../../assets/Resume.pdf";
 
 const CTA = () => {
   return (
     <div className="cta">
-      <a
-        href="../../assets/Resume.pdf"
-        target="_blank"
-        download
-        className="btn btn-download">
+      <a href={Resume} target="_blank" className="btn btn-download">
         My Resume
       </a>
       <a
